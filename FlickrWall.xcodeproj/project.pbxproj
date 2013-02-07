@@ -128,7 +128,7 @@
 		AC21F3DD16C2F6A4009E31A6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		AC21F3DF16C2F6A9009E31A6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		AC21F3E116C2F6B9009E31A6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		AC21F3EC16C307F7009E31A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AC21F3EC16C307F7009E31A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AC21F3F016C31207009E31A6 /* facebook_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook_pressed@2x.png"; sourceTree = "<group>"; };
 		AC21F3F116C31207009E31A6 /* facebook_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_pressed.png; sourceTree = "<group>"; };
 		AC21F3F216C31207009E31A6 /* facebook_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook_default@2x.png"; sourceTree = "<group>"; };
@@ -573,6 +573,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlickerWall/FlickrWall-Prefix.pch";
 				INFOPLIST_FILE = "FlickerWall/FlickrWall-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = FlickrWall;
 				WRAPPER_EXTENSION = app;
 			};
@@ -588,6 +589,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlickerWall/FlickrWall-Prefix.pch";
 				INFOPLIST_FILE = "FlickerWall/FlickrWall-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = FlickrWall;
 				WRAPPER_EXTENSION = app;
 			};
@@ -612,6 +614,7 @@
 				AC21F37D16C1AFA5009E31A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
